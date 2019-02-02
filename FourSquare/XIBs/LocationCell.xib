@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="LocationCell" rowHeight="68" id="Rb9-q2-ivT" customClass="LocationCell" customModule="FourSquare" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="68"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Rb9-q2-ivT" id="auB-Ed-jMO">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="67.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SM Marikina, San Mateo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FGA-6w-EMl">
+                        <rect key="frame" x="16" y="11" width="343" height="21"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="16km" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qtc-lS-eO6">
+                        <rect key="frame" x="16" y="40" width="343" height="16.5"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="qtc-lS-eO6" secondAttribute="bottom" constant="0.5" id="2Aj-A7-gvY"/>
+                    <constraint firstItem="FGA-6w-EMl" firstAttribute="trailing" secondItem="auB-Ed-jMO" secondAttribute="trailingMargin" id="2cR-e8-H4p"/>
+                    <constraint firstItem="qtc-lS-eO6" firstAttribute="top" secondItem="FGA-6w-EMl" secondAttribute="bottom" constant="8" id="93s-PT-FK9"/>
+                    <constraint firstItem="qtc-lS-eO6" firstAttribute="leading" secondItem="FGA-6w-EMl" secondAttribute="leading" id="GbQ-Hr-ytr"/>
+                    <constraint firstItem="FGA-6w-EMl" firstAttribute="leading" secondItem="auB-Ed-jMO" secondAttribute="leadingMargin" id="jOG-RU-CTX"/>
+                    <constraint firstItem="qtc-lS-eO6" firstAttribute="trailing" secondItem="FGA-6w-EMl" secondAttribute="trailing" id="l3D-ml-Fnx"/>
+                    <constraint firstItem="FGA-6w-EMl" firstAttribute="top" secondItem="auB-Ed-jMO" secondAttribute="topMargin" id="qNi-gt-0El"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="subTitleLabel" destination="qtc-lS-eO6" id="9PH-C2-hGR"/>
+                <outlet property="titleLabel" destination="FGA-6w-EMl" id="nBE-tj-NAT"/>
+            </connections>
+            <point key="canvasLocation" x="-271.19999999999999" y="29.685157421289357"/>
+        </tableViewCell>
+    </objects>
+</document>

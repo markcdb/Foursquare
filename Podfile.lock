@@ -1,0 +1,16 @@
+PODS:
+  - Networking (4.1.1)
+
+DEPENDENCIES:
+  - Networking (~> 4.1.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Networking
+
+SPEC CHECKSUMS:
+  Networking: ffde5754883907f90f9f751e183eba4a75dc4b89
+
+PODFILE CHECKSUM: be76103085289ac54018072c558e8095aeeee2c1
+
+COCOAPODS: 1.5.3
