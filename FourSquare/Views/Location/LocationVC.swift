@@ -152,7 +152,7 @@ extension LocationVC: UITableViewDelegate, UITableViewDataSource {
             return 1
         }
         
-        return viewModel.venues.count
+        return viewModel.getVenuesCount()
     }
     
     func tableView(_ tableView: UITableView,
@@ -166,7 +166,7 @@ extension LocationVC: UITableViewDelegate, UITableViewDataSource {
             cell = createLoaderCell(tableView: tableView,
                                     indexPath: indexPath)
             cell.selectionStyle = .none
-        } else if viewModel.venues.count > 0,
+        } else if viewModel.getVenuesCount() > 0,
             authorized == true  {
             cell = createLocationCell(tableView: tableView,
                                       indexPath: indexPath)
@@ -181,7 +181,7 @@ extension LocationVC: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView,
                    didSelectRowAt indexPath: IndexPath) {
-        if viewModel.venues.count > 0 {
+        if viewModel.getVenuesCount() > 0 {
             
             performSegue(withIdentifier: Segues.locationDetails,
                          sender: indexPath)

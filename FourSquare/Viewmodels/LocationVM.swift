@@ -19,8 +19,8 @@ protocol LocationVMDelegate: class {
 
 class LocationVM: BaseVM {
     
-    public var venues: [FoursquareLocation] = []
-    public var location: Location!
+    private var venues: [FoursquareLocation] = []
+    private var location: Location!
     private var authorized: Bool = true
     
     private let locationManager = CLLocationManager()
@@ -61,6 +61,11 @@ class LocationVM: BaseVM {
             
             self.state = .error(error.localizedDescription)
         }
+    }
+    
+    public func getVenuesCount() -> Int {
+        
+        return venues.count
     }
     
     public func getVenue(at index: Int) -> FoursquareLocation? {
