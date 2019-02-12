@@ -153,7 +153,7 @@ extension LocationVM: CLLocationManagerDelegate {
         
         
         if state == nil ||
-            state != .loading("") {
+            state != .loading(nil) {
             getVenues()
         }
     }

@@ -13,6 +13,9 @@
 		F83519292201BCD60064E0BF /* Location.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F83519272201BCD60064E0BF /* Location.storyboard */; };
 		F835192B2201BCD90064E0BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F835192A2201BCD90064E0BF /* Assets.xcassets */; };
 		F835192E2201BCD90064E0BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F835192C2201BCD90064E0BF /* LaunchScreen.storyboard */; };
+		F8DD00AB220D1E1E00B95BAD /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DD00AA220D1E1E00B95BAD /* Observer.swift */; };
+		F8DD00AD220D233200B95BAD /* Redux.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DD00AC220D233200B95BAD /* Redux.swift */; };
+		F8DD00AF220D2BE800B95BAD /* FoursquareState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DD00AE220D2BE800B95BAD /* FoursquareState.swift */; };
 		F8E27F4F2201BE09003E9D4D /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E27F4E2201BE09003E9D4D /* API.swift */; };
 		F8E27F512201C029003E9D4D /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E27F502201C029003E9D4D /* Response.swift */; };
 		F8E27F532201C0DD003E9D4D /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E27F522201C0DD003E9D4D /* Request.swift */; };
@@ -50,6 +53,9 @@
 		F835192A2201BCD90064E0BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F835192D2201BCD90064E0BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F835192F2201BCD90064E0BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8DD00AA220D1E1E00B95BAD /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		F8DD00AC220D233200B95BAD /* Redux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Redux.swift; sourceTree = "<group>"; };
+		F8DD00AE220D2BE800B95BAD /* FoursquareState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoursquareState.swift; sourceTree = "<group>"; };
 		F8E27F4E2201BE09003E9D4D /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		F8E27F502201C029003E9D4D /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		F8E27F522201C0DD003E9D4D /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
@@ -126,6 +132,7 @@
 		F83519222201BCD60064E0BF /* FourSquare */ = {
 			isa = PBXGroup;
 			children = (
+				F8DD00AC220D233200B95BAD /* Redux.swift */,
 				F83519232201BCD60064E0BF /* AppDelegate.swift */,
 				F8E27F542201C135003E9D4D /* Constant.swift */,
 				F8E27F642203D409003E9D4D /* Permissions.swift */,
@@ -165,6 +172,8 @@
 				F8E27F6222032D84003E9D4D /* BaseVM.swift */,
 				F8E27F6022032CFC003E9D4D /* LocationVM.swift */,
 				F8E27F7A22057F94003E9D4D /* LocationDetailsVM.swift */,
+				F8DD00AA220D1E1E00B95BAD /* Observer.swift */,
+				F8DD00AE220D2BE800B95BAD /* FoursquareState.swift */,
 			);
 			path = Viewmodels;
 			sourceTree = "<group>";
@@ -354,6 +363,7 @@
 				F8E27F57220271FF003E9D4D /* ListRequest.swift in Sources */,
 				F8E27F5922027208003E9D4D /* SingleRequest.swift in Sources */,
 				F8E27F5D2203282A003E9D4D /* Location.swift in Sources */,
+				F8DD00AD220D233200B95BAD /* Redux.swift in Sources */,
 				F8E27F512201C029003E9D4D /* Response.swift in Sources */,
 				F8E27F7322054BCD003E9D4D /* LoaderCell.swift in Sources */,
 				F83519262201BCD60064E0BF /* LocationVC.swift in Sources */,
@@ -368,7 +378,9 @@
 				F83519242201BCD60064E0BF /* AppDelegate.swift in Sources */,
 				F8E27F7B22057F94003E9D4D /* LocationDetailsVM.swift in Sources */,
 				F8E27F552201C135003E9D4D /* Constant.swift in Sources */,
+				F8DD00AB220D1E1E00B95BAD /* Observer.swift in Sources */,
 				F8E27F5B220323FB003E9D4D /* Repository.swift in Sources */,
+				F8DD00AF220D2BE800B95BAD /* FoursquareState.swift in Sources */,
 				F8E27F6122032CFC003E9D4D /* LocationVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

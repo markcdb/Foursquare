@@ -67,9 +67,7 @@ class SingleRequest: Request {
                                               message: message,
                                               error: error)
                 
-                DispatchQueue.main.async {
-                    self.errorCompletion(errorResponse)
-                }
+                self.errorCompletion(errorResponse)
             }
         }
     }
