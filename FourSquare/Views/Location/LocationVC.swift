@@ -29,8 +29,7 @@ extension LocationVC {
         title = Titles.nearby
         navigationController?.navigationBar.prefersLargeTitles = true
         
-        viewModel = LocationVM(repository: Repository.shared,
-                               delegate: self)
+        viewModel = LocationVM(delegate: self)
         
         for identifier in identifiers {
             tableView.register(UINib(nibName: identifier,
@@ -51,8 +50,7 @@ extension LocationVC {
             let indexPath = sender as? IndexPath,
             let venue = viewModel.getVenue(at: indexPath.row) {
             
-            let vm = LocationDetailsVM(repository: Repository.shared,
-                                       venue: venue)
+            let vm = LocationDetailsVM(venue: venue)
             locationDetailsVC.viewModel = vm
         }
     }

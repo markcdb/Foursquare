@@ -8,23 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		02F02D14B5A3EEE6A140BFB5E98CA002 /* Pods-FourSquare-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2906874B7DDBA0D8D8067BFF356087F2 /* Pods-FourSquare-dummy.m */; };
-		159FF28E6B6684B290F4B10A6C9EF155 /* FormDataPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D37ABCBD025A4F1D6985B8C9D90167 /* FormDataPart.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		2725F3AE00CEB5CFB1AF21348DB5A928 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE8260ACC65A45753FD099382CF43DF /* Result.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		4223C28544B938ED0331557E6239FDB0 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901FBF7E4716B323C52A50F650AC4D09 /* JSON.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		159FF28E6B6684B290F4B10A6C9EF155 /* FormDataPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A38EBA09B27E498F23B8CF69B32072 /* FormDataPart.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2725F3AE00CEB5CFB1AF21348DB5A928 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5864921803F61DB93F7A4F8E8EDA5341 /* Result.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4223C28544B938ED0331557E6239FDB0 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1CD8762FFA553DAED65F0F349D951E /* JSON.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		460DB331A97B854551870B0788F79203 /* Pods-FourSquare-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F360C8DEAE496940AED85EB09A38F5D4 /* Pods-FourSquare-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		57CD39B6464F357972A4977E16CA7367 /* Networking+Private.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872AE82C47FD2DCBFA9D26CA1BA2DB40 /* Networking+Private.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		62E6CD147691AC31919D56CE620AC138 /* Networking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7AD6BF966C4EE5FDC43A8884DA8CD7 /* Networking-dummy.m */; };
-		63CA237746EFCA18522F5C3852846AF7 /* Networking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0830F61AED7D86BE2F46E97B9D691C /* Networking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6E7D2309FEC9416AD0DE1EFFDF489A15 /* Networking.h in Headers */ = {isa = PBXBuildFile; fileRef = 937AB8DD1612F9C085975CF50E9965BD /* Networking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		76680E01B998D7AA699E9E3AEC69C66E /* NetworkActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A922E105791B0D18E3070D0A45AB29F /* NetworkActivityIndicator.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		57CD39B6464F357972A4977E16CA7367 /* Networking+Private.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66D79E36CA22D4BB65586B5E0D6DFFD /* Networking+Private.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		62E6CD147691AC31919D56CE620AC138 /* Networking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7AEB2A8918F727F65467034E4F12E7 /* Networking-dummy.m */; };
+		63CA237746EFCA18522F5C3852846AF7 /* Networking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3399E228245D84422C833359CDD46B8 /* Networking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E7D2309FEC9416AD0DE1EFFDF489A15 /* Networking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0466477A693D918CEA98558DAF09A3C5 /* Networking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76680E01B998D7AA699E9E3AEC69C66E /* NetworkActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E792751535B079E7A8453BA122088EF /* NetworkActivityIndicator.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		9F8D06A4C97D4608131EF6C442C03E9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		A8B2B521A6F438EF29F15D1E5743A9B9 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D19DB28205D66C8B6C3E1D02FE0DA57 /* Networking.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		B218D242EA3D8B32FDD4B8D57E870502 /* Networking+HTTPRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1EDD8F6537E971BBCE0FABCCEC3572 /* Networking+HTTPRequests.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		B9F966532FD361A2DAB0023FDD6ED445 /* TestCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = A373C403511F01DE9C65EFF8BAECA263 /* TestCheck.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		BBA543B3F44EF5153B3674A072C06B15 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CC275CCF02F283189EFF61FED9D12D /* Helpers.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A8B2B521A6F438EF29F15D1E5743A9B9 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DD8A261505E2CED57E546A4ED406AB /* Networking.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B218D242EA3D8B32FDD4B8D57E870502 /* Networking+HTTPRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D3A27C54723E4EC73AE9DB1C93A2D1 /* Networking+HTTPRequests.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B9F966532FD361A2DAB0023FDD6ED445 /* TestCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76F1A4B3327DB000E26A50C58C9B329 /* TestCheck.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BBA543B3F44EF5153B3674A072C06B15 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A75FB9C4FFCC831E1E59ABB5D76E2B /* Helpers.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		CC82C005265780F5B17380FBF1C9F134 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		D070CE416A6C172A35B20844A5D8BF9C /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0568B0F8A92659FBEE3EC7202CD0D5 /* Image.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		EB32C0E3B15D846517341E4EDDA65F1F /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EBC28E457884C7E26783759672CEF0 /* Response.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D070CE416A6C172A35B20844A5D8BF9C /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F0089EFE75981E46C6B5B43FB6FBEE /* Image.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		EB32C0E3B15D846517341E4EDDA65F1F /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E34F519EC561237F6D561340D2D4A8 /* Response.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,38 +38,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1A922E105791B0D18E3070D0A45AB29F /* NetworkActivityIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkActivityIndicator.swift; path = Sources/NetworkActivityIndicator.swift; sourceTree = "<group>"; };
+		01D3A27C54723E4EC73AE9DB1C93A2D1 /* Networking+HTTPRequests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Networking+HTTPRequests.swift"; path = "Sources/Networking+HTTPRequests.swift"; sourceTree = "<group>"; };
+		0466477A693D918CEA98558DAF09A3C5 /* Networking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Networking.h; path = Sources/Networking.h; sourceTree = "<group>"; };
 		2906874B7DDBA0D8D8067BFF356087F2 /* Pods-FourSquare-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FourSquare-dummy.m"; sourceTree = "<group>"; };
 		2B9A45658E60BB6C9F931AE50B1C2454 /* Pods-FourSquare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FourSquare.debug.xcconfig"; sourceTree = "<group>"; };
+		2C2C2B0DF41F5D17E99FCD1EDE306EBD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42DFCDC86DBE1A0694713706D971F3AF /* Pods-FourSquare-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FourSquare-acknowledgements.plist"; sourceTree = "<group>"; };
-		49D37ABCBD025A4F1D6985B8C9D90167 /* FormDataPart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormDataPart.swift; path = Sources/FormDataPart.swift; sourceTree = "<group>"; };
 		4D31DC5F78F297E1F422420CC39B6FA1 /* Pods-FourSquare-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FourSquare-resources.sh"; sourceTree = "<group>"; };
+		4F1CD8762FFA553DAED65F0F349D951E /* JSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSON.swift; path = Sources/JSON.swift; sourceTree = "<group>"; };
+		50E34F519EC561237F6D561340D2D4A8 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Sources/Response.swift; sourceTree = "<group>"; };
+		53A75FB9C4FFCC831E1E59ABB5D76E2B /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Sources/Helpers.swift; sourceTree = "<group>"; };
+		5864921803F61DB93F7A4F8E8EDA5341 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Sources/Result.swift; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5BC99E07D5FFBEC725EC5F731F8A527D /* Pods_FourSquare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FourSquare.framework; path = "Pods-FourSquare.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DA7D8E9E012095C9E43724020259D7B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		61EBC28E457884C7E26783759672CEF0 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Sources/Response.swift; sourceTree = "<group>"; };
-		7D19DB28205D66C8B6C3E1D02FE0DA57 /* Networking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Networking.swift; path = Sources/Networking.swift; sourceTree = "<group>"; };
-		872AE82C47FD2DCBFA9D26CA1BA2DB40 /* Networking+Private.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Networking+Private.swift"; path = "Sources/Networking+Private.swift"; sourceTree = "<group>"; };
-		901FBF7E4716B323C52A50F650AC4D09 /* JSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSON.swift; path = Sources/JSON.swift; sourceTree = "<group>"; };
-		90CC275CCF02F283189EFF61FED9D12D /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Sources/Helpers.swift; sourceTree = "<group>"; };
+		64BFB8886FCB41648E8F197F7E32E25D /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		6B30438FF4F0C7ACDAB5D0C860578C81 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		6E792751535B079E7A8453BA122088EF /* NetworkActivityIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkActivityIndicator.swift; path = Sources/NetworkActivityIndicator.swift; sourceTree = "<group>"; };
+		7D1E533C33B191F49229C234C3BEF5C6 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		89F0089EFE75981E46C6B5B43FB6FBEE /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Sources/Image.swift; sourceTree = "<group>"; };
 		928715F1ACDD62612E0C8DD21CA358AC /* Pods-FourSquare-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FourSquare-acknowledgements.markdown"; sourceTree = "<group>"; };
-		937AB8DD1612F9C085975CF50E9965BD /* Networking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Networking.h; path = Sources/Networking.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9EE8260ACC65A45753FD099382CF43DF /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Sources/Result.swift; sourceTree = "<group>"; };
-		A373C403511F01DE9C65EFF8BAECA263 /* TestCheck.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TestCheck.swift; path = Sources/TestCheck.swift; sourceTree = "<group>"; };
-		AC1EDD8F6537E971BBCE0FABCCEC3572 /* Networking+HTTPRequests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Networking+HTTPRequests.swift"; path = "Sources/Networking+HTTPRequests.swift"; sourceTree = "<group>"; };
-		AD0830F61AED7D86BE2F46E97B9D691C /* Networking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Networking-umbrella.h"; sourceTree = "<group>"; };
+		A0A38EBA09B27E498F23B8CF69B32072 /* FormDataPart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormDataPart.swift; path = Sources/FormDataPart.swift; sourceTree = "<group>"; };
+		AE7AEB2A8918F727F65467034E4F12E7 /* Networking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Networking-dummy.m"; sourceTree = "<group>"; };
 		B56DF9B79AAD267CD07DBEFAF119561D /* Pods-FourSquare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FourSquare.release.xcconfig"; sourceTree = "<group>"; };
 		B78D95CD8FFD4E4E38F816E369B72EDF /* Pods-FourSquare-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FourSquare-frameworks.sh"; sourceTree = "<group>"; };
+		C66D79E36CA22D4BB65586B5E0D6DFFD /* Networking+Private.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Networking+Private.swift"; path = "Sources/Networking+Private.swift"; sourceTree = "<group>"; };
+		C82D07CF53B389AA19249C8789A7C652 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		CD738457CB927DAC331A8C3001D40D64 /* Networking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Networking.modulemap; sourceTree = "<group>"; };
 		CDDEE37663D6E3BFBF9951AF8038489A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D241A7E63299384F0C4D9D51C15E2B3D /* Networking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Networking.xcconfig; sourceTree = "<group>"; };
-		DE7AD6BF966C4EE5FDC43A8884DA8CD7 /* Networking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Networking-dummy.m"; sourceTree = "<group>"; };
-		DFC0295E5C7BFB1F1A30D9DCCC3A532E /* Networking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Networking-prefix.pch"; sourceTree = "<group>"; };
+		E2846E90FC05F9B67A575A7A712EB43C /* Networking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Networking.xcconfig; sourceTree = "<group>"; };
 		E2E281953659E2FF6B221B19966D6176 /* Pods-FourSquare.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FourSquare.modulemap"; sourceTree = "<group>"; };
-		F1DB2C21BA32898E2867594981936FDA /* Networking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Networking.modulemap; sourceTree = "<group>"; };
+		E43949675E758D15AA4518F51AA799F9 /* Networking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Networking-prefix.pch"; sourceTree = "<group>"; };
+		F3399E228245D84422C833359CDD46B8 /* Networking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Networking-umbrella.h"; sourceTree = "<group>"; };
 		F360C8DEAE496940AED85EB09A38F5D4 /* Pods-FourSquare-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FourSquare-umbrella.h"; sourceTree = "<group>"; };
 		F3A769A43BE9952D167C54696E479348 /* Networking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Networking.framework; path = Networking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC0568B0F8A92659FBEE3EC7202CD0D5 /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Sources/Image.swift; sourceTree = "<group>"; };
+		F76F1A4B3327DB000E26A50C58C9B329 /* TestCheck.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TestCheck.swift; path = Sources/TestCheck.swift; sourceTree = "<group>"; };
+		F8DD8A261505E2CED57E546A4ED406AB /* Networking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Networking.swift; path = Sources/Networking.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22CB049CD6593DF812B91C8C4348364A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2D83F434118680B4197F24E313520156 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		26868676B1702D3EF4BF901A1BC5F7E8 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				40A10880119A67BD3D8C9351FE0A6C55 /* Frameworks */,
+				8F424DE60771DE2B099CD75C6E10ABF2 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		2C67CAD66ED6FBEF0C669DD2482A0362 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C2C2B0DF41F5D17E99FCD1EDE306EBD /* Info.plist */,
+				CD738457CB927DAC331A8C3001D40D64 /* Networking.modulemap */,
+				E2846E90FC05F9B67A575A7A712EB43C /* Networking.xcconfig */,
+				AE7AEB2A8918F727F65467034E4F12E7 /* Networking-dummy.m */,
+				E43949675E758D15AA4518F51AA799F9 /* Networking-prefix.pch */,
+				F3399E228245D84422C833359CDD46B8 /* Networking-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Networking";
+			sourceTree = "<group>";
+		};
+		2D83F434118680B4197F24E313520156 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D1E533C33B191F49229C234C3BEF5C6 /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		40A10880119A67BD3D8C9351FE0A6C55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C82D07CF53B389AA19249C8789A7C652 /* GoogleMaps.framework */,
+				6B30438FF4F0C7ACDAB5D0C860578C81 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		443A9791A88E97B941ECD01B0435ADEC /* Pods-FourSquare */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +162,16 @@
 			path = "Target Support Files/Pods-FourSquare";
 			sourceTree = "<group>";
 		};
+		5DE2A98D72791B0539DE1BF7B13C633E /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				22CB049CD6593DF812B91C8C4348364A /* Base */,
+				26868676B1702D3EF4BF901A1BC5F7E8 /* Maps */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,50 +188,23 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		6F25FA8E53A705289116394D33B2F2B0 /* Networking */ = {
-			isa = PBXGroup;
-			children = (
-				49D37ABCBD025A4F1D6985B8C9D90167 /* FormDataPart.swift */,
-				90CC275CCF02F283189EFF61FED9D12D /* Helpers.swift */,
-				FC0568B0F8A92659FBEE3EC7202CD0D5 /* Image.swift */,
-				901FBF7E4716B323C52A50F650AC4D09 /* JSON.swift */,
-				1A922E105791B0D18E3070D0A45AB29F /* NetworkActivityIndicator.swift */,
-				937AB8DD1612F9C085975CF50E9965BD /* Networking.h */,
-				7D19DB28205D66C8B6C3E1D02FE0DA57 /* Networking.swift */,
-				AC1EDD8F6537E971BBCE0FABCCEC3572 /* Networking+HTTPRequests.swift */,
-				872AE82C47FD2DCBFA9D26CA1BA2DB40 /* Networking+Private.swift */,
-				61EBC28E457884C7E26783759672CEF0 /* Response.swift */,
-				9EE8260ACC65A45753FD099382CF43DF /* Result.swift */,
-				A373C403511F01DE9C65EFF8BAECA263 /* TestCheck.swift */,
-				9250F04D2906D9F00DB28E4160BCCEDA /* Support Files */,
-			);
-			name = Networking;
-			path = Networking;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				C53B164F29832AA0A8D9C1CB7B26F34C /* Pods */,
+				D8318375DF01E4564E95C18EB7CD65B0 /* Pods */,
 				9736F0560D6D7B38EC79FDF392854706 /* Products */,
 				6F00FA4E576185130237CB01BC6F6B53 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9250F04D2906D9F00DB28E4160BCCEDA /* Support Files */ = {
+		8F424DE60771DE2B099CD75C6E10ABF2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				5DA7D8E9E012095C9E43724020259D7B /* Info.plist */,
-				F1DB2C21BA32898E2867594981936FDA /* Networking.modulemap */,
-				D241A7E63299384F0C4D9D51C15E2B3D /* Networking.xcconfig */,
-				DE7AD6BF966C4EE5FDC43A8884DA8CD7 /* Networking-dummy.m */,
-				DFC0295E5C7BFB1F1A30D9DCCC3A532E /* Networking-prefix.pch */,
-				AD0830F61AED7D86BE2F46E97B9D691C /* Networking-umbrella.h */,
+				64BFB8886FCB41648E8F197F7E32E25D /* GoogleMaps.bundle */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Networking";
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		9736F0560D6D7B38EC79FDF392854706 /* Products */ = {
@@ -189,10 +224,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C53B164F29832AA0A8D9C1CB7B26F34C /* Pods */ = {
+		C11F35A06F2176EC5C2A1CC47B9201E5 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				6F25FA8E53A705289116394D33B2F2B0 /* Networking */,
+				A0A38EBA09B27E498F23B8CF69B32072 /* FormDataPart.swift */,
+				53A75FB9C4FFCC831E1E59ABB5D76E2B /* Helpers.swift */,
+				89F0089EFE75981E46C6B5B43FB6FBEE /* Image.swift */,
+				4F1CD8762FFA553DAED65F0F349D951E /* JSON.swift */,
+				6E792751535B079E7A8453BA122088EF /* NetworkActivityIndicator.swift */,
+				0466477A693D918CEA98558DAF09A3C5 /* Networking.h */,
+				F8DD8A261505E2CED57E546A4ED406AB /* Networking.swift */,
+				01D3A27C54723E4EC73AE9DB1C93A2D1 /* Networking+HTTPRequests.swift */,
+				C66D79E36CA22D4BB65586B5E0D6DFFD /* Networking+Private.swift */,
+				50E34F519EC561237F6D561340D2D4A8 /* Response.swift */,
+				5864921803F61DB93F7A4F8E8EDA5341 /* Result.swift */,
+				F76F1A4B3327DB000E26A50C58C9B329 /* TestCheck.swift */,
+				2C67CAD66ED6FBEF0C669DD2482A0362 /* Support Files */,
+			);
+			name = Networking;
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		D8318375DF01E4564E95C18EB7CD65B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DE2A98D72791B0539DE1BF7B13C633E /* GoogleMaps */,
+				C11F35A06F2176EC5C2A1CC47B9201E5 /* Networking */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -383,7 +440,7 @@
 		};
 		70C7F5B8A4553551A609EF97ED5698F1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D241A7E63299384F0C4D9D51C15E2B3D /* Networking.xcconfig */;
+			baseConfigurationReference = E2846E90FC05F9B67A575A7A712EB43C /* Networking.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -421,7 +478,7 @@
 		};
 		8F17CD5103A14EF751B03DE408BC8A58 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D241A7E63299384F0C4D9D51C15E2B3D /* Networking.xcconfig */;
+			baseConfigurationReference = E2846E90FC05F9B67A575A7A712EB43C /* Networking.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

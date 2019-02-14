@@ -36,10 +36,12 @@
                 </subviews>
                 <constraints>
                     <constraint firstItem="RJH-Th-NiS" firstAttribute="leading" secondItem="g58-HQ-e7u" secondAttribute="leadingMargin" id="0hC-3f-wzR"/>
+                    <constraint firstItem="RJH-Th-NiS" firstAttribute="centerY" secondItem="g58-HQ-e7u" secondAttribute="centerY" id="4qw-2K-d1H"/>
                     <constraint firstAttribute="bottomMargin" secondItem="HRn-Tn-EeY" secondAttribute="bottom" constant="6" id="5sN-FN-FaP"/>
                     <constraint firstItem="HRn-Tn-EeY" firstAttribute="top" secondItem="g58-HQ-e7u" secondAttribute="topMargin" constant="5.5" id="DQo-rh-Pd6"/>
                     <constraint firstItem="RJH-Th-NiS" firstAttribute="top" secondItem="g58-HQ-e7u" secondAttribute="topMargin" constant="5.5" id="Id0-Pb-zQk"/>
                     <constraint firstItem="HRn-Tn-EeY" firstAttribute="leading" secondItem="RJH-Th-NiS" secondAttribute="trailing" constant="8" id="LW9-OX-2ux"/>
+                    <constraint firstItem="HRn-Tn-EeY" firstAttribute="centerY" secondItem="g58-HQ-e7u" secondAttribute="centerY" id="e3F-DK-ycJ"/>
                     <constraint firstItem="HRn-Tn-EeY" firstAttribute="trailing" secondItem="g58-HQ-e7u" secondAttribute="trailingMargin" id="jPs-fS-39n"/>
                     <constraint firstAttribute="bottomMargin" secondItem="RJH-Th-NiS" secondAttribute="bottom" constant="6" id="kjq-3D-myd"/>
                 </constraints>

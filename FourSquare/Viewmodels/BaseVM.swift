@@ -55,6 +55,5 @@ enum ViewState: Equatable {
 
 class BaseVM: NSObject {
     
-    var repository: RepositoryProtocol!
     open var state: ViewState!
 }

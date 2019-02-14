@@ -19,13 +19,15 @@ protocol LocationVMDelegate: class {
 
 class LocationVM: BaseVM {
     
+    private var repository: LocationRepository!
     private var venues: [FoursquareLocation] = []
-    private var location: Location!
     private var authorized: Bool = true
     
     private let locationManager = CLLocationManager()
     private let geoCoder = CLGeocoder()
     
+    public var location: Location!
+
     weak public var delegate: LocationVMDelegate?
     
     override var state: ViewState! {
@@ -38,10 +40,9 @@ class LocationVM: BaseVM {
         }
     }
     
-    init(repository: RepositoryProtocol,
-         delegate: LocationVMDelegate) {
+    init(delegate: LocationVMDelegate) {
         super.init()
-        self.repository = repository
+        self.repository = LocationRepository()
         self.delegate = delegate
     }
 
@@ -61,11 +62,6 @@ class LocationVM: BaseVM {
             
             self.state = .error(error.localizedDescription)
         }
-    }
-    
-    public func getVenuesCount() -> Int {
-        
-        return venues.count
     }
     
     public func getVenue(at index: Int) -> FoursquareLocation? {
@@ -89,6 +85,11 @@ class LocationVM: BaseVM {
     public func getState() -> ViewState? {
         
         return state
+    }
+    
+    public func getVenuesCount() -> Int {
+        
+        return venues.count
     }
     
     public func getLocationAuthorization() -> Bool {
@@ -153,7 +154,7 @@ extension LocationVM: CLLocationManagerDelegate {
         
         
         if state == nil ||
-            state != .loading(nil) {
+            state != .loading("") {
             getVenues()
         }
     }

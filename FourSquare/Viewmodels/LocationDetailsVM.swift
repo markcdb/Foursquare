@@ -13,10 +13,8 @@ class LocationDetailsVM: BaseVM {
     private var venue: FoursquareLocation!
     private var values: [[String: String]] = []
     
-    init(repository: RepositoryProtocol,
-         venue: FoursquareLocation) {
+    init(venue: FoursquareLocation) {
         super.init()
-        self.repository = repository
         self.venue = venue
         
         self.values.append(["Key": getName() ?? ""])

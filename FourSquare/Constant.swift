@@ -14,14 +14,15 @@ struct NetworkConfig {
 }
 
 struct Tokens {
-    static let clientId = "ODRZVQEOVPDLALISFYCTVUTJCX4VM2Q24GS5V1K1L4X01QRY"
-    static let clientSecret = "ZWCXPIANUAYF40LC53NFCDAL2UPOEX4GBRNTLY1LPQUXWSFP"
+    static let gmAppKey = "AIzaSyD_HKvigKHS0yJhODqL3CO2P3BUzGlcLEI"
+    static let fsClientId = "ODRZVQEOVPDLALISFYCTVUTJCX4VM2Q24GS5V1K1L4X01QRY"
+    static let fsClientSecret = "ZWCXPIANUAYF40LC53NFCDAL2UPOEX4GBRNTLY1LPQUXWSFP"
 }
 
 struct Paths {
     
    
-    static let venues = "/venues/search?ll=$[lat],$[lng]&client_id=\(Tokens.clientId)&client_secret=\(Tokens.clientSecret)&v=20190131"
+    static let venues = "/venues/search?ll=$[lat],$[lng]&client_id=\(Tokens.fsClientId)&client_secret=\(Tokens.fsClientSecret)&v=20190131"
 }
 
 struct Keys {

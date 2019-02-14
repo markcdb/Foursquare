@@ -6,7 +6,8 @@ target 'FourSquare' do
     use_frameworks!
     
     pod 'Networking', '~> 4.1.1'
-    
+    pod 'GoogleMaps'
+
     post_install do |installer|
         installer.pods_project.targets.each do |target|
             if ['Networking'].include? target.name

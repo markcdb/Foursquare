@@ -13,16 +13,14 @@
 		F83519292201BCD60064E0BF /* Location.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F83519272201BCD60064E0BF /* Location.storyboard */; };
 		F835192B2201BCD90064E0BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F835192A2201BCD90064E0BF /* Assets.xcassets */; };
 		F835192E2201BCD90064E0BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F835192C2201BCD90064E0BF /* LaunchScreen.storyboard */; };
-		F8DD00AB220D1E1E00B95BAD /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DD00AA220D1E1E00B95BAD /* Observer.swift */; };
-		F8DD00AD220D233200B95BAD /* Redux.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DD00AC220D233200B95BAD /* Redux.swift */; };
-		F8DD00AF220D2BE800B95BAD /* FoursquareState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DD00AE220D2BE800B95BAD /* FoursquareState.swift */; };
+		F85079B02214F3A4005DA258 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85079AE2214F3A4005DA258 /* Repository.swift */; };
+		F85079B12214F3A4005DA258 /* LocationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85079AF2214F3A4005DA258 /* LocationRepository.swift */; };
 		F8E27F4F2201BE09003E9D4D /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E27F4E2201BE09003E9D4D /* API.swift */; };
 		F8E27F512201C029003E9D4D /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E27F502201C029003E9D4D /* Response.swift */; };
 		F8E27F532201C0DD003E9D4D /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E27F522201C0DD003E9D4D /* Request.swift */; };
 		F8E27F552201C135003E9D4D /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E27F542201C135003E9D4D /* Constant.swift */; };
 		F8E27F57220271FF003E9D4D /* ListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E27F56220271FF003E9D4D /* ListRequest.swift */; };
 		F8E27F5922027208003E9D4D /* SingleRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E27F5822027208003E9D4D /* SingleRequest.swift */; };
-		F8E27F5B220323FB003E9D4D /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E27F5A220323FB003E9D4D /* Repository.swift */; };
 		F8E27F5D2203282A003E9D4D /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E27F5C2203282A003E9D4D /* Location.swift */; };
 		F8E27F5F22032918003E9D4D /* FoursquareLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E27F5E22032918003E9D4D /* FoursquareLocation.swift */; };
 		F8E27F6122032CFC003E9D4D /* LocationVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E27F6022032CFC003E9D4D /* LocationVM.swift */; };
@@ -53,16 +51,14 @@
 		F835192A2201BCD90064E0BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F835192D2201BCD90064E0BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F835192F2201BCD90064E0BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8DD00AA220D1E1E00B95BAD /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
-		F8DD00AC220D233200B95BAD /* Redux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Redux.swift; sourceTree = "<group>"; };
-		F8DD00AE220D2BE800B95BAD /* FoursquareState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoursquareState.swift; sourceTree = "<group>"; };
+		F85079AE2214F3A4005DA258 /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		F85079AF2214F3A4005DA258 /* LocationRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationRepository.swift; sourceTree = "<group>"; };
 		F8E27F4E2201BE09003E9D4D /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		F8E27F502201C029003E9D4D /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		F8E27F522201C0DD003E9D4D /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		F8E27F542201C135003E9D4D /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		F8E27F56220271FF003E9D4D /* ListRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRequest.swift; sourceTree = "<group>"; };
 		F8E27F5822027208003E9D4D /* SingleRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleRequest.swift; sourceTree = "<group>"; };
-		F8E27F5A220323FB003E9D4D /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		F8E27F5C2203282A003E9D4D /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		F8E27F5E22032918003E9D4D /* FoursquareLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoursquareLocation.swift; sourceTree = "<group>"; };
 		F8E27F6022032CFC003E9D4D /* LocationVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVM.swift; sourceTree = "<group>"; };
@@ -132,7 +128,6 @@
 		F83519222201BCD60064E0BF /* FourSquare */ = {
 			isa = PBXGroup;
 			children = (
-				F8DD00AC220D233200B95BAD /* Redux.swift */,
 				F83519232201BCD60064E0BF /* AppDelegate.swift */,
 				F8E27F542201C135003E9D4D /* Constant.swift */,
 				F8E27F642203D409003E9D4D /* Permissions.swift */,
@@ -172,8 +167,6 @@
 				F8E27F6222032D84003E9D4D /* BaseVM.swift */,
 				F8E27F6022032CFC003E9D4D /* LocationVM.swift */,
 				F8E27F7A22057F94003E9D4D /* LocationDetailsVM.swift */,
-				F8DD00AA220D1E1E00B95BAD /* Observer.swift */,
-				F8DD00AE220D2BE800B95BAD /* FoursquareState.swift */,
 			);
 			path = Viewmodels;
 			sourceTree = "<group>";
@@ -190,14 +183,23 @@
 		F83519392201BD0C0064E0BF /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				F85079AD2214F3A4005DA258 /* Repositories */,
 				F8E27F4E2201BE09003E9D4D /* API.swift */,
 				F8E27F522201C0DD003E9D4D /* Request.swift */,
 				F8E27F56220271FF003E9D4D /* ListRequest.swift */,
 				F8E27F5822027208003E9D4D /* SingleRequest.swift */,
 				F8E27F502201C029003E9D4D /* Response.swift */,
-				F8E27F5A220323FB003E9D4D /* Repository.swift */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		F85079AD2214F3A4005DA258 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				F85079AE2214F3A4005DA258 /* Repository.swift */,
+				F85079AF2214F3A4005DA258 /* LocationRepository.swift */,
+			);
+			path = Repositories;
 			sourceTree = "<group>";
 		};
 		F8E27F662204B267003E9D4D /* XIBs */ = {
@@ -245,6 +247,7 @@
 				F835191D2201BCD60064E0BF /* Frameworks */,
 				F835191E2201BCD60064E0BF /* Resources */,
 				EB39131F89A2751A705E908C /* [CP] Embed Pods Frameworks */,
+				27A56B03EB08A29D4B221AD0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -329,6 +332,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		27A56B03EB08A29D4B221AD0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FourSquare/Pods-FourSquare-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FourSquare/Pods-FourSquare-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		EB39131F89A2751A705E908C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -360,10 +385,10 @@
 			files = (
 				F8E27F6F2204B4DF003E9D4D /* BaseCell.swift in Sources */,
 				F8E27F652203D409003E9D4D /* Permissions.swift in Sources */,
+				F85079B12214F3A4005DA258 /* LocationRepository.swift in Sources */,
 				F8E27F57220271FF003E9D4D /* ListRequest.swift in Sources */,
 				F8E27F5922027208003E9D4D /* SingleRequest.swift in Sources */,
 				F8E27F5D2203282A003E9D4D /* Location.swift in Sources */,
-				F8DD00AD220D233200B95BAD /* Redux.swift in Sources */,
 				F8E27F512201C029003E9D4D /* Response.swift in Sources */,
 				F8E27F7322054BCD003E9D4D /* LoaderCell.swift in Sources */,
 				F83519262201BCD60064E0BF /* LocationVC.swift in Sources */,
@@ -373,14 +398,12 @@
 				F8E27F6322032D84003E9D4D /* BaseVM.swift in Sources */,
 				F8E27F7522055717003E9D4D /* LocationDetailsVC.swift in Sources */,
 				F8E27F7922055E2A003E9D4D /* PermissionCell.swift in Sources */,
+				F85079B02214F3A4005DA258 /* Repository.swift in Sources */,
 				F8E27F8122058796003E9D4D /* LocationDetailsCell.swift in Sources */,
 				F8E27F4F2201BE09003E9D4D /* API.swift in Sources */,
 				F83519242201BCD60064E0BF /* AppDelegate.swift in Sources */,
 				F8E27F7B22057F94003E9D4D /* LocationDetailsVM.swift in Sources */,
 				F8E27F552201C135003E9D4D /* Constant.swift in Sources */,
-				F8DD00AB220D1E1E00B95BAD /* Observer.swift in Sources */,
-				F8E27F5B220323FB003E9D4D /* Repository.swift in Sources */,
-				F8DD00AF220D2BE800B95BAD /* FoursquareState.swift in Sources */,
 				F8E27F6122032CFC003E9D4D /* LocationVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -529,7 +552,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 86TST43N9D;
 				INFOPLIST_FILE = FourSquare/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -548,7 +571,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 86TST43N9D;
 				INFOPLIST_FILE = FourSquare/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
